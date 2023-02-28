@@ -1,0 +1,63 @@
+:root {
+    --dark-purple: #1b1734;
+    --light-purple: #896fbc;
+    --purple: #420264;
+    --white: #fff;
+    --black: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--dark-purple);
+    background-image: url("./download-tetris.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--dark-purple);
+}
+
+header img {
+    height: 70px;
+    width: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.centered a {
+    margin: 0 auto;
+}
+
+.centered i {
+    height: 30px;
+    width: auto;
+    color: var(--white);
+}
